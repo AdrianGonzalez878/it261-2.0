@@ -41,7 +41,7 @@
     <header>
         <nav>
             <a href="./website/daily.php" id="switch">Switch</a>
-            <a href="#" id="troubleshoot">Troubleshoot</a>
+            <a href="./website/adder.php" id="troubleshoot">Troubleshoot</a>
             <a href="#" id="calculator">Calculator</a>
             <a href="#" id="email">Email</a>
             <a href="#" id="gallery">Gallery</a>
@@ -75,7 +75,6 @@
 
         <h3>Week 3</h3>
         <ol>
-            <li><a href="weeks/week3/images">Images folder</a></li>
             <li><a href="weeks/week3/about.php">about.php</a></li>
             <li><a href="weeks/week3/date.php">date.php</a></li>
             <li><a href="weeks/week3/for-each.php">for-each.php</a></li>
@@ -83,6 +82,16 @@
             <li><a href="weeks/week3/if.php">if.php</a></li>
             <li><a href="weeks/week3/index.php">index.php</a></li>
             <li><a href="weeks/week3/swich.php">swich.php</a></li>
+        </ol>
+
+        <h3>Week 4</h3>
+        <ol>
+            <li><a href="weeks/week4/arithmetic-form.php">arithmetic-form.php</a></li>
+            <li><a href="weeks/week4/celcius.php">celcius.php</a></li>
+            <li><a href="weeks/week4/form-get.php">form-get.php</a></li>
+            <li><a href="weeks/week4/form1.php">form1.php</a></li>
+            <li><a href="weeks/week4/form2.php">form2.php</a></li>
+            <li><a href="weeks/week4/form3.php">form3.php</a></li>
         </ol>
 
     </aside>
