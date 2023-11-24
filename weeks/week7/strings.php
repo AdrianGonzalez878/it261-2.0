@@ -1,0 +1,27 @@
+<?php
+//our str_replace and substr functions!
+//substr(string,start,length)
+
+$statement= 'presently, I am reading the Looning Tower';
+echo $statement;
+echo '<br>';
+echo substr($statement, 0);
+echo '<br>';
+echo substr($statement, 1);
+echo '<br>';
+echo substr($statement, 11);
+echo '<h2>Now, I would like to display just the words -- I am reading</h2>';
+echo '<br>';
+echo substr($statement, 11, 12);
+echo '<h2>What if I would like to display Looning?</h2>';
+echo substr($statement, -13, 9);
+echo '<br>';
+echo substr($statement, 4, 12);
+echo '<br>';
+echo substr($statement, -20, 2);
+echo '<br>';
+echo '<h2>Now for the str_replace function!</h2>';
+
+$statement2 = 'Hulu\s rendition of the looning tower is based on the book named the looming tower! ';
+
+echo str_replace('the','The',$statement2);
