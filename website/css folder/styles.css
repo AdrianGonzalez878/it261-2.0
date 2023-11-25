@@ -1,0 +1,253 @@
+/*Styles for my website*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body{
+    background-color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ .current{
+  color: red;
+ }
+
+ 
+ header{
+    background: yellow;
+    padding: 20px 0;
+
+ }
+
+ .inner-header{
+   max-width: 1200px;
+   margin: 0px auto;
+
+   overflow: hidden;
+ }
+
+ #logo {
+   width: 200px;
+   float: left;
+
+ }
+
+ nav ul {
+   float: right;
+   margin-top: 30px;
+   list-style-type: none;
+
+ }
+
+ nav li{
+   float: left;
+   margin-left: 30px;
+ }
+
+ nav a{
+   text-decoration: none;
+ }
+
+ #wrapper{
+    max-width: 1200px;
+    margin: 20px auto;
+    clear: both;
+    overflow: hidden;
+
+ }
+
+ #hero{
+    background: red;
+    margin-bottom: 20px;
+
+ }
+
+ #hero img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ }
+
+
+ main{
+    width: 62%;
+    
+    background: lightblue;
+    float: left;
+
+ }
+ 
+ aside{
+   width: 35%;
+   
+   background: lightcoral;
+   float: right;
+ }
+
+ footer{
+   height: 60px;
+   line-height: 60px;
+   background: #ddd;
+   clear: both;
+ }
+
+ footer ul{
+   display: flex;
+   justify-content: center;
+   list-style-type: none;
+ }
+
+ footer li{
+   justify-content: center;
+   margin: 0 15px;
+ }
+
+ img{
+   max-width: 100%;
+
+ }
+
+ /*Typography*/
+
+ p{
+   margin-bottom: 20px;
+   line-height: 1.4;
+ }
+
+ h1{
+   font-size: 2.5em;
+
+ }
+ 
+ h2{
+   font-size: 2em;
+
+ }
+
+ h3{
+   font-size: 1.5em;
+
+ }
+
+ h1, h2, h3{
+   margin-bottom: 10px;
+   font-family:playfair Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+
+ form, input, select {
+  margin: 0;
+  padding: 0;
+  
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 20px auto;
+  border: 5px solid red;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+legend {
+  font-weight: bold;
+  color: blue;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+label:hover{
+  color: rgba(214, 67, 67, 1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  background-color: blue;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: blue;
+}
+
+span{
+  color: red;
+  font-size: 14px;
+}
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.thx{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+
+}
+
