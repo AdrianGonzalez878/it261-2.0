@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Wrapper for forms */
+#wrapper {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* General form styles */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Styles for success and welcome messages */
+.success {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Styles for header and welcome-logout */
+header {
+    background-color: #333;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+.Welcome-logout {
+    margin-top: 20px;
+}
+
+.Welcome-logout h3 {
+    margin: 0;
+}
+
+.Welcome-logout a {
+    color: #3498db;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.Welcome-logout a:hover {
+    text-decoration: underline;
+}
+
+/* General error message styles */
+.errors {
+    color: red;
+    margin-top: 10px;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
